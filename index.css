@@ -1,0 +1,156 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: rgba(88, 88, 68, 0.856);
+    height: 8rem;
+}
+.header .name{
+     text-shadow: .3rem .3rem #1b1313;
+    padding-left: 4rem;
+    margin: 2rem;
+    font-size: 3rem;
+    color:rgb(235, 228, 228);
+    font-weight: bolder;
+    width: 100%;
+}
+.header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27rem;
+    margin-right: 0;
+    width: 100%;
+}
+.header .links a{
+    background-color: bisque;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    color: rgb(5, 13, 20);
+    font-weight: bold;
+}
+.header .links a:hover{
+    background: #695151;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    color: black;
+    height: 25rem;
+}
+.container .text{
+    text-shadow: .2rem .2rem #817a7a;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.container p{
+    font-size: 1.7rem;
+    color: rgb(82, 70, 70);
+    font-weight: bold;
+}
+.container a{
+    text-decoration: none;
+    background-color: rgb(90, 81, 81);
+    color: bisque;
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+.container2{
+    
+    display: flex;
+
+}
+.container2 .firstdiv{
+    margin: 2rem;
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(149, 156, 121, 0.315);
+}
+.container2 .firstdiv:hover{
+    box-shadow:0 2rem 4rem black;
+}
+.container2 .firstdiv .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+.container2 .firstdiv .text a{
+    text-decoration: none;
+    background-color: rgb(138, 138, 56);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color: antiquewhite;
+}
+.container2 .firstdiv .text a:hover{
+    background-color: rgb(80, 73, 73);
+}
+.container2 .firstdiv img{
+    box-sizing: border-box;
+    padding: 2rem;
+    width: aut0;
+    height: 90%;
+}
+a:hover{
+    color: salmon;
+    border: .1rem solid black;
+    background:transparent;
+    box-shadow:0 1rem 2rem black;
+}
+.footer{
+    height: 4rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer .textcon{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+}
+.footer i{
+    margin: 1rem .5rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.footer a{
+    margin: 1rem .5rem;
+    font-size: 2rem;
+    color: black;
+}
+.footer i:hover{
+    background-color: aqua;
+    color: aliceblue;
+    cursor: pointer;
+}
+.footer2{
+    background-color: rgb(129, 164, 228);
+    height: 3rem;
+    
+    text-align: center;
+}
+.footer2 p{
+    font-weight: bolder;
+    padding-top: .3rem;
+    font-size: 1.3rem;
+}

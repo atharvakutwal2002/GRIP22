@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+    </style>
+    <title>Transfer</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="name">My Bank</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="#">customers</a>
+      </div>
+    </div>
+
+    <!-- <div class="container">
+      <h1>Atharva Kutwal</h1>
+      <h2>Balance - $ 2,00,000</h2>
+      <form action="#">
+         
+        <input
+          type="number"
+          name="balance"
+          id="balance"
+          placeholder="Enter Amount"
+        />
+        
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Receiver's Name"
+        />
+      </form>
+
+      <h3>Click on Proceed to send the amount</h3>
+      <button type="submit" id="btn">Proceed</button>
+    </div> -->
+
+    <div class="container">
+        <h1>Atharva Kutwal</h1>
+      <h2>Balance - $ 2,00,000</h2>
+      <h3>Select one customers from below by clicking on name in below table</h3>
+      <div id="vis" style="visibility:hidden">
+        <div class=" setstyle">Name:<input type="text" name="fname" id="fname" /></div> 
+        <div class=" setstyle">Email:<input type="email" name="lname" id="lname" /></div>
+        <div class="setstyle">Amount:<input type="number" name="age" id="age" /></div>
+      </div>
+   
+
+      
+      <button id="vis1"  onclick="editRow(); makealert();">Send</button><br /><br />
+      
+    </div>
+
+    <div class="container2">
+      <table id="table" onclick="visi()">
+        <tr id="viscont" onclick="visi() "  >
+          <th>Name</th >
+          <th>email</th>
+          <th>Balance</th>
+        </tr>
+        <tr  >
+          <td>Vighnesh Jadhav</td>
+          <td>Vighnesh@gmail.com</td>
+          <td id="vighneshbal">40000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Durgesh Mahajan</td>
+          <td>DM123@gmail.com</td>
+          <td>50000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Amit Gaikwad</td>
+          <td>amit201@gmail.com</td>
+          <td>3000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Priyanshu Borole</td>
+          <td>Priyanshu122@gmail.com</td>
+          <td>70000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Aditya Rayate</td>
+          <td>Aditya822@gmail.com</td>
+          <td>1000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Dhruv Juneja</td>
+          <td>DJ123@gmail.com</td>
+          <td>30000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Nishant Bhosale</td>
+          <td>Nishant123@gmail.com</td>
+          <td>90000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Ganesh Ghadge</td>
+          <td>Ganesh001@gmail.com</td>
+          <td>20000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Shreyas Pujari</td>
+          <td>Shreyas123@gmail.com</td>
+          <td>10000</td>
+        </tr>
+        <tr onclick="visi()" >
+          <td>Kunal Pawar</td>
+          <td>Kunal02@gmail.com</td>
+          <td>100</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- First Name:<input type="text" name="fname" id="fname" /><br /><br />
+    Last Name:<input type="text" name="lname" id="lname" /><br /><br />
+    Age:<input type="text" name="age" id="age" /><br /><br />
+    <button onclick="editRow();">Edit Row</button><br /><br />
+
+    <table id="table">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+      </tr>
+
+      <tr>
+        <td>FN1</td>
+        <td>LN1</td>
+        <td>10</td>
+      </tr>
+
+      <tr style="background-color: #ddd">
+        <td>FN2</td>
+        <td>LN2</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td>FN3</td>
+        <td>LN3</td>
+        <td>30</td>
+      </tr>
+
+      <tr>
+        <td>FN4</td>
+        <td>LN4</td>
+        <td>40</td>
+      </tr>
+
+      <tr>
+        <td>FN5</td>
+        <td>LN5</td>
+        <td>50</td>
+      </tr>
+    </table>  -->
+
+    <div class="footer2">
+      <p>Copyright 2022 &copy; Atharva Kutwal  #GRIPJANUARY22</p>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
